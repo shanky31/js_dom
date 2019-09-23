@@ -1,0 +1,15 @@
+body {
+    font-family: 'Chilanka', cursive;
+}
+
+h1,
+h4 {
+    text-align: center;
+}
+.quote {
+    text-align: center;
+    margin-top: 15%;
+    color: #6d22aa;
+    font-size: 15px;
+    font-weight: bold;
+}

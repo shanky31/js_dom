@@ -1,6 +1,13 @@
 var quotes;
 
 // Write your code here
+document.addEventListener("keydown", function(event) {
+    if (event.which == 32) {
+        var len = quotes.length;
+        var mathRandom = Math.floor(Math.random()*len)+1;
+        document.getElementById("quote").innerText = `"${quotes[mathRandom].quoteText}" \n \n  -${quotes[mathRandom].quoteAuthor}`;
+    }
+});
 
 
 
